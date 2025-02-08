@@ -1,15 +1,9 @@
-import random
-
-responses=[
-    "yes,definitely!",
-    "no not now",
-    "ask again later",
-    "it is certain",
-    "very doubtful",
-    "outlook is good",
-    "better not  tell you now ",
-    "concentrate and ask again "   
-]
-
-def get_rendom_response():
-    return random.choice(responses)
+def play_again():
+    while True:
+        if choice == "yes":
+            return True 
+        elif choice == "no":
+            print("thank you for playing! goodbye!")
+            return False
+        else:
+            print("please type yes or no ")
