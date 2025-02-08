@@ -1,15 +1,2 @@
-import random
-
-responses=[
-    "yes,definitely!",
-    "no not now",
-    "ask again later",
-    "it is certain",
-    "very doubtful",
-    "outlook is good",
-    "better not  tell you now ",
-    "concentrate and ask again "   
-]
-
-def get_rendom_response():
-    return random.choice(responses)
+def display_response(response):
+    print("\n🔮 The Magic 8-Ball says:", response, "\n")
